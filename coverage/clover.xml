@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1583691496071" clover="3.2.0">
-  <project timestamp="1583691496072" name="All files">
-    <metrics statements="53" coveredstatements="44" conditionals="36" coveredconditionals="23" methods="19" coveredmethods="17" elements="108" coveredelements="84" complexity="0" loc="53" ncloc="53" packages="5" files="6" classes="6"/>
+<coverage generated="1583758836750" clover="3.2.0">
+  <project timestamp="1583758836751" name="All files">
+    <metrics statements="60" coveredstatements="51" conditionals="42" coveredconditionals="28" methods="22" coveredmethods="20" elements="124" coveredelements="99" complexity="0" loc="60" ncloc="60" packages="6" files="7" classes="7"/>
+    <package name="__tests__utils">
+      <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
+      <file name="truncate.js" path="/Users/KNascimento/Documents/Estudos/back/tests/server/__tests__utils/truncate.js">
+        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="src">
       <metrics statements="24" coveredstatements="20" conditionals="18" coveredconditionals="11" methods="9" coveredmethods="7"/>
       <file name="app.js" path="/Users/KNascimento/Documents/Estudos/back/tests/server/src/app.js">
@@ -36,16 +46,19 @@
       </file>
     </package>
     <package name="src.app.controllers">
-      <metrics statements="7" coveredstatements="5" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <metrics statements="10" coveredstatements="8" conditionals="6" coveredconditionals="5" methods="2" coveredmethods="2"/>
       <file name="User.js" path="/Users/KNascimento/Documents/Estudos/back/tests/server/src/app/controllers/User.js">
-        <metrics statements="7" coveredstatements="5" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <metrics statements="10" coveredstatements="8" conditionals="6" coveredconditionals="5" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="cond" truecount="3" falsecount="1"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="8" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.app.models">
