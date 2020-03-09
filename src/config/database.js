@@ -18,5 +18,11 @@ module.exports = {
     password: '',
     database: 'db_test',
     dialect: 'sqlite',
+    storage: './__tests__/database.sqlite',
+    define: {
+      timestamp: true,
+      underscored: true,
+      underscoredAll: true,
+    },
   },
 };
