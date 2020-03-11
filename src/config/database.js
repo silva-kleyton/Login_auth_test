@@ -19,6 +19,7 @@ module.exports = {
     database: 'db_test',
     dialect: 'sqlite',
     storage: './__tests__/database.sqlite',
+    logging: false,
     define: {
       timestamp: true,
       underscored: true,
