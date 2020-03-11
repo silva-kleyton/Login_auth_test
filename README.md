@@ -8,4 +8,4 @@
 2. Executar o comando `npm i`
 3. configurar o arquivo `.env`
 4. para executar o serviço `yarn dev` ou `npm run dev`
-5. para executar os testes `yarn test` ou `npm run test`
+5. para executar os testes `yarn test` ou `npm run test`;
